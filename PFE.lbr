@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.5.1">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;b&gt;https://eagle.componentsearchengine.com&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
+<packages>
+<package name="TO254P290X760X1320-3P">
+<description>&lt;b&gt;SOT-32 (TO-126)&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.28" diameter="1.92" shape="square"/>
+<pad name="2" x="2.54" y="0" drill="1.28" diameter="1.92"/>
+<pad name="3" x="5.08" y="0" drill="1.28" diameter="1.92"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.61" y1="0.25" x2="6.69" y2="0.25" width="0.05" layer="51"/>
+<wire x1="6.69" y1="0.25" x2="6.69" y2="-3.15" width="0.05" layer="51"/>
+<wire x1="6.69" y1="-3.15" x2="-1.61" y2="-3.15" width="0.05" layer="51"/>
+<wire x1="-1.61" y1="-3.15" x2="-1.61" y2="0.25" width="0.05" layer="51"/>
+<wire x1="-1.36" y1="0" x2="6.44" y2="0" width="0.1" layer="51"/>
+<wire x1="6.44" y1="0" x2="6.44" y2="-2.9" width="0.1" layer="51"/>
+<wire x1="6.44" y1="-2.9" x2="-1.36" y2="-2.9" width="0.1" layer="51"/>
+<wire x1="-1.36" y1="-2.9" x2="-1.36" y2="0" width="0.1" layer="51"/>
+<wire x1="-1.36" y1="-1.27" x2="-0.09" y2="0" width="0.1" layer="51"/>
+<wire x1="6.44" y1="-2.9" x2="6.44" y2="0" width="0.2" layer="21"/>
+<wire x1="6.44" y1="0" x2="-1.36" y2="0" width="0.2" layer="21"/>
+<wire x1="-1.36" y1="0" x2="-1.36" y2="0" width="0.2" layer="21"/>
+</package>
+<package name="B02BPASK1LFSN">
+<description>&lt;b&gt;B02B-PASK-1 (LF) (SN)&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="1" y="0" drill="0.8" diameter="1.3"/>
+<pad name="2" x="-1" y="0" drill="0.8" diameter="1.3"/>
+<text x="0.05" y="2.54" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0.05" y="-1.27" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-3" y1="2.65" x2="3" y2="2.65" width="0.2" layer="51"/>
+<wire x1="3" y1="2.65" x2="3" y2="-2.65" width="0.2" layer="51"/>
+<wire x1="3" y1="-2.65" x2="-3" y2="-2.65" width="0.2" layer="51"/>
+<wire x1="-3" y1="-2.65" x2="-3" y2="2.65" width="0.2" layer="51"/>
+<wire x1="-4" y1="3.65" x2="4.1" y2="3.65" width="0.1" layer="51"/>
+<wire x1="4.1" y1="3.65" x2="4.1" y2="-3.65" width="0.1" layer="51"/>
+<wire x1="4.1" y1="-3.65" x2="-4" y2="-3.65" width="0.1" layer="51"/>
+<wire x1="-4" y1="-3.65" x2="-4" y2="3.65" width="0.1" layer="51"/>
+<wire x1="3" y1="2.65" x2="-3" y2="2.65" width="0.1" layer="21"/>
+<wire x1="-3" y1="2.65" x2="-3" y2="-2.65" width="0.1" layer="21"/>
+<wire x1="-3" y1="-2.65" x2="3" y2="-2.65" width="0.1" layer="21"/>
+<wire x1="3" y1="-2.65" x2="3" y2="1" width="0.1" layer="21"/>
+</package>
+<package name="DIP794W53P254L959H508Q8N">
+<description>&lt;b&gt;P (R-PDIP-T8)&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="-3.97" y="3.81" drill="0.73" diameter="1.13" shape="square"/>
+<pad name="2" x="-3.97" y="1.27" drill="0.73" diameter="1.13"/>
+<pad name="3" x="-3.97" y="-1.27" drill="0.73" diameter="1.13"/>
+<pad name="4" x="-3.97" y="-3.81" drill="0.73" diameter="1.13"/>
+<pad name="5" x="3.97" y="-3.81" drill="0.73" diameter="1.13"/>
+<pad name="6" x="3.97" y="-1.27" drill="0.73" diameter="1.13"/>
+<pad name="7" x="3.97" y="1.27" drill="0.73" diameter="1.13"/>
+<pad name="8" x="3.97" y="3.81" drill="0.73" diameter="1.13"/>
+<text x="0" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-4.945" y1="5.33" x2="4.945" y2="5.33" width="0.05" layer="51"/>
+<wire x1="4.945" y1="5.33" x2="4.945" y2="-5.33" width="0.05" layer="51"/>
+<wire x1="4.945" y1="-5.33" x2="-4.945" y2="-5.33" width="0.05" layer="51"/>
+<wire x1="-4.945" y1="-5.33" x2="-4.945" y2="5.33" width="0.05" layer="51"/>
+<wire x1="-3.3" y1="5.08" x2="3.3" y2="5.08" width="0.1" layer="51"/>
+<wire x1="3.3" y1="5.08" x2="3.3" y2="-5.08" width="0.1" layer="51"/>
+<wire x1="3.3" y1="-5.08" x2="-3.3" y2="-5.08" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="-5.08" x2="-3.3" y2="5.08" width="0.1" layer="51"/>
+<wire x1="-3.3" y1="3.81" x2="-2.03" y2="5.08" width="0.1" layer="51"/>
+<wire x1="-4.535" y1="5.08" x2="3.3" y2="5.08" width="0.2" layer="21"/>
+<wire x1="-3.3" y1="-5.08" x2="3.3" y2="-5.08" width="0.2" layer="21"/>
+</package>
+<package name="NTE243">
+<description>&lt;b&gt;NTE243-2&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="1.22" diameter="1.83" shape="square"/>
+<pad name="2" x="0" y="-10.92" drill="1.22" diameter="1.83"/>
+<pad name="3" x="16.9" y="-5.46" drill="3.96" diameter="5.94"/>
+<pad name="4" x="-13.26" y="-5.46" drill="3.96" diameter="5.94"/>
+<text x="1.82" y="-5.46" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="1.82" y="-5.46" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-18.18" y1="-19.81" x2="21.82" y2="-19.81" width="0.1" layer="51"/>
+<wire x1="21.82" y1="-19.81" x2="21.82" y2="8.89" width="0.1" layer="51"/>
+<wire x1="21.82" y1="8.89" x2="-18.18" y2="8.89" width="0.1" layer="51"/>
+<wire x1="-18.18" y1="8.89" x2="-18.18" y2="-19.81" width="0.1" layer="51"/>
+<wire x1="1.82" y1="-18.81" x2="1.82" y2="-18.81" width="0.2" layer="51"/>
+<wire x1="1.82" y1="-18.81" x2="1.82" y2="7.89" width="0.2" layer="51" curve="180"/>
+<wire x1="1.82" y1="7.89" x2="1.82" y2="7.89" width="0.2" layer="51"/>
+<wire x1="1.82" y1="7.89" x2="1.82" y2="-18.81" width="0.2" layer="51" curve="180"/>
+<wire x1="-7.68" y1="-14.835" x2="-17.18" y2="-8.46" width="0.2" layer="51"/>
+<wire x1="-17.18" y1="-8.46" x2="-17.18" y2="-2.46" width="0.2" layer="51"/>
+<wire x1="-17.18" y1="-2.46" x2="-7.68" y2="3.915" width="0.2" layer="51"/>
+<wire x1="11.32" y1="-14.835" x2="20.82" y2="-8.46" width="0.2" layer="51"/>
+<wire x1="20.82" y1="-8.46" x2="20.82" y2="-2.46" width="0.2" layer="51"/>
+<wire x1="20.82" y1="-2.46" x2="11.32" y2="3.915" width="0.2" layer="51"/>
+<wire x1="-7.68" y1="-14.835" x2="-17.18" y2="-8.46" width="0.1" layer="21"/>
+<wire x1="-17.18" y1="-8.46" x2="-17.18" y2="-2.46" width="0.1" layer="21"/>
+<wire x1="-17.18" y1="-2.46" x2="-7.68" y2="3.915" width="0.1" layer="21"/>
+<wire x1="11.32" y1="3.915" x2="20.82" y2="-2.46" width="0.1" layer="21"/>
+<wire x1="20.82" y1="-2.46" x2="20.82" y2="-8.46" width="0.1" layer="21"/>
+<wire x1="20.82" y1="-8.46" x2="11.32" y2="-14.835" width="0.1" layer="21"/>
+</package>
+<package name="T7YA">
+<description>&lt;b&gt;T7YA&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="A" x="0" y="-2.54" drill="0.84" diameter="1.3"/>
+<pad name="C" x="0" y="2.54" drill="0.84" diameter="1.3"/>
+<pad name="B" x="-2.54" y="0" drill="0.84" diameter="1.3"/>
+<text x="-0.283" y="-0.025" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="-0.283" y="-0.025" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<circle x="0" y="0" radius="3.5" width="0.2" layer="51"/>
+<circle x="0" y="0" radius="3.5" width="0.2" layer="25"/>
+<circle x="-0.012" y="-4.318" radius="0.032" width="0.2" layer="25"/>
+</package>
+</packages>
+<symbols>
+<symbol name="BD680">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="B" x="0" y="0" length="middle"/>
+<pin name="C" x="0" y="-2.54" length="middle"/>
+<pin name="E" x="20.32" y="0" length="middle" rot="R180"/>
+</symbol>
+<symbol name="BD679">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="B" x="0" y="0" length="middle"/>
+<pin name="C" x="0" y="-2.54" length="middle"/>
+<pin name="E" x="20.32" y="0" length="middle" rot="R180"/>
+</symbol>
+<symbol name="B02B-PASK-1_(LF)_(SN)">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="1" x="0" y="0" length="middle"/>
+<pin name="2" x="20.32" y="0" length="middle" rot="R180"/>
+</symbol>
+<symbol name="UA741CP">
+<wire x1="5.08" y1="2.54" x2="35.56" y2="2.54" width="0.254" layer="94"/>
+<wire x1="35.56" y1="-10.16" x2="35.56" y2="2.54" width="0.254" layer="94"/>
+<wire x1="35.56" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<text x="36.83" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="36.83" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="OFFSET_N1" x="0" y="0" length="middle"/>
+<pin name="IN-" x="0" y="-2.54" length="middle" direction="in"/>
+<pin name="IN+" x="0" y="-5.08" length="middle" direction="in"/>
+<pin name="VCC-" x="0" y="-7.62" length="middle" direction="pwr"/>
+<pin name="NC" x="40.64" y="0" length="middle" direction="nc" rot="R180"/>
+<pin name="VCC+" x="40.64" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="OUT" x="40.64" y="-5.08" length="middle" direction="out" rot="R180"/>
+<pin name="OFFSET_N2" x="40.64" y="-7.62" length="middle" rot="R180"/>
+</symbol>
+<symbol name="NTE243">
+<wire x1="5.08" y1="2.54" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-5.08" x2="17.78" y2="2.54" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="19.05" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="19.05" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="B" x="0" y="0" length="middle"/>
+<pin name="E" x="0" y="-2.54" length="middle"/>
+<pin name="C_1" x="22.86" y="0" length="middle" rot="R180"/>
+<pin name="C_2" x="22.86" y="-2.54" length="middle" rot="R180"/>
+</symbol>
+<symbol name="T7YA103MT20">
+<wire x1="5.08" y1="2.54" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="15.24" y2="2.54" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="16.51" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="A" x="0" y="0" length="middle"/>
+<pin name="B" x="0" y="-2.54" length="middle"/>
+<pin name="C" x="20.32" y="0" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BD680" prefix="IC">
+<description>&lt;b&gt;BD680, Darlington Transistor, PNP 4 A 80 V HFE:750, 3-Pin, SOT-32&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.st.com/web/en/resource/technical/document/datasheet/CD00000939.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="BD680" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO254P290X760X1320-3P">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ALLIED_NUMBER" value="70013761" constant="no"/>
+<attribute name="ALLIED_PRICE-STOCK" value="http://www.alliedelec.com/stmicroelectronics-bd680/70013761/" constant="no"/>
+<attribute name="DESCRIPTION" value="BD680, Darlington Transistor, PNP 4 A 80 V HFE:750, 3-Pin, SOT-32" constant="no"/>
+<attribute name="HEIGHT" value="2.9mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BD680" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="511-BD680" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=511-BD680" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="0109090P" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/0109090P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BD679" prefix="Q">
+<description>&lt;b&gt;STMICROELECTRONICS - BD679 - DARLINGTON TRANSISTOR, SOT-32&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.st.com/web/en/resource/technical/document/datasheet/CD00000939.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="BD679" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO254P290X760X1320-3P">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ALLIED_NUMBER" value="70013760" constant="no"/>
+<attribute name="ALLIED_PRICE-STOCK" value="http://www.alliedelec.com/stmicroelectronics-bd679/70013760/" constant="no"/>
+<attribute name="DESCRIPTION" value="STMICROELECTRONICS - BD679 - DARLINGTON TRANSISTOR, SOT-32" constant="no"/>
+<attribute name="HEIGHT" value="2.9mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="STMicroelectronics" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="BD679" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="511-BD679" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=511-BD679" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="1024099" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="https://uk.rs-online.com/web/p/products/1024099" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B02B-PASK-1_(LF)_(SN)" prefix="J">
+<description>&lt;b&gt;JST Polyamide Series, 2mm Pitch 2 Way 1 Row Straight PCB Header, Solder Termination, 3A&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.jst-mfg.com/product/pdf/eng/ePA-F.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="B02B-PASK-1_(LF)_(SN)" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="B02BPASK1LFSN">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="JST Polyamide Series, 2mm Pitch 2 Way 1 Row Straight PCB Header, Solder Termination, 3A" constant="no"/>
+<attribute name="HEIGHT" value="7mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="JST (JAPAN SOLDERLESS TERMINALS)" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="B02B-PASK-1 (LF) (SN)" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="5128585P" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/5128585P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UA741CP" prefix="IC">
+<description>&lt;b&gt;Single op-amp,UA741CP 1MHz DIP8, tube Texas Instruments UA741CP Op Amp, 1MHz, 8-Pin PDIP&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.ti.com/lit/ds/symlink/ua741.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="UA741CP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DIP794W53P254L959H508Q8N">
+<connects>
+<connect gate="G$1" pin="IN+" pad="3"/>
+<connect gate="G$1" pin="IN-" pad="2"/>
+<connect gate="G$1" pin="NC" pad="8"/>
+<connect gate="G$1" pin="OFFSET_N1" pad="1"/>
+<connect gate="G$1" pin="OFFSET_N2" pad="5"/>
+<connect gate="G$1" pin="OUT" pad="6"/>
+<connect gate="G$1" pin="VCC+" pad="7"/>
+<connect gate="G$1" pin="VCC-" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Single op-amp,UA741CP 1MHz DIP8, tube Texas Instruments UA741CP Op Amp, 1MHz, 8-Pin PDIP" constant="no"/>
+<attribute name="HEIGHT" value="5.08mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="UA741CP" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="595-UA741CP" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=595-UA741CP" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="0305311P" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/0305311P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NTE243" prefix="Q">
+<description>&lt;b&gt;NTE ELECTRONICS - NTE243 - DARLINGTON TRANSISTOR, NPN, 80V, TO-3&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.farnell.com/datasheets/199893.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="NTE243" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NTE243">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C_1" pad="3"/>
+<connect gate="G$1" pin="C_2" pad="4"/>
+<connect gate="G$1" pin="E" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ALLIED_NUMBER" value="70214617" constant="no"/>
+<attribute name="ALLIED_PRICE-STOCK" value="https://www.alliedelec.com/nteelectronics-inc-nte243/70214617/" constant="no"/>
+<attribute name="DESCRIPTION" value="NTE ELECTRONICS - NTE243 - DARLINGTON TRANSISTOR, NPN, 80V, TO-3" constant="no"/>
+<attribute name="HEIGHT" value="8.89mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="NTE ELECTRONICS" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="NTE243" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="T7YA103MT20" prefix="VR">
+<description>&lt;b&gt;Vishay T7YA Series Through Hole Trimmer Resistor with Pin Terminations, 10k +/-10% 1/2W +/-100ppm/C Top Adjust&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://docs-emea.rs-online.com/webdocs/0021/0900766b8002111f.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="T7YA103MT20" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="T7YA">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Vishay T7YA Series Through Hole Trimmer Resistor with Pin Terminations, 10k +/-10% 1/2W +/-100ppm/C Top Adjust" constant="no"/>
+<attribute name="HEIGHT" value="mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Vishay" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="T7YA103MT20" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="N/A" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" constant="no"/>
+<attribute name="RS_PART_NUMBER" value="3746787P" constant="no"/>
+<attribute name="RS_PRICE-STOCK" value="http://uk.rs-online.com/web/p/products/3746787P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
