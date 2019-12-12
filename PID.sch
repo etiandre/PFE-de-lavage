@@ -13734,6 +13734,10 @@ Source: &lt;a href="https://docs-emea.rs-online.com/webdocs/0021/0900766b8002111
 <wire x1="261.62" y1="27.94" x2="261.62" y2="73.66" width="0.1524" layer="97"/>
 <wire x1="261.62" y1="73.66" x2="190.5" y2="73.66" width="0.1524" layer="97"/>
 <text x="193.04" y="30.48" size="1.778" layer="97">Sommeur</text>
+<text x="63.5" y="71.12" size="1.778" layer="91">Erreur</text>
+<text x="147.32" y="48.26" size="1.778" layer="97">K = 1/(Ri*Ci)</text>
+<text x="149.86" y="99.06" size="1.778" layer="97">K = R2/R1</text>
+<text x="149.86" y="-5.08" size="1.778" layer="97">K = Rd*Cd</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="109.22" y="114.3" smashed="yes">
