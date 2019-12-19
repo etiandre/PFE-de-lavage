@@ -13755,11 +13755,11 @@ Source: &lt;a href="https://docs-emea.rs-online.com/webdocs/0021/0900766b8002111
 <attribute name="SPICEMODEL" value="OPAMP"/>
 <attribute name="SPICEPREFIX" value="X"/>
 </part>
-<part name="RP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2"/>
+<part name="RP1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="1k"/>
 <part name="SUPPLY1" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P-1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V-" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="RP" library="PFE" deviceset="T7YA103MT20" device=""/>
+<part name="RP" library="PFE" deviceset="T7YA103MT20" device="" value="10k"/>
 <part name="IC2" library="SamacSys_Parts" deviceset="UA741CPE4" device="">
 <attribute name="SPICEMODEL" value="OPAMP"/>
 <attribute name="SPICEPREFIX" value="X"/>
@@ -13767,9 +13767,9 @@ Source: &lt;a href="https://docs-emea.rs-online.com/webdocs/0021/0900766b8002111
 <part name="SUPPLY2" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P-2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V-" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="RI" library="PFE" deviceset="T7YA103MT20" device=""/>
-<part name="CI1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1"/>
-<part name="CI2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1"/>
+<part name="RI" library="PFE" deviceset="T7YA103MT20" device="" value="100k"/>
+<part name="CI1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="470µ"/>
+<part name="CI2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="470µ"/>
 <part name="IC3" library="SamacSys_Parts" deviceset="UA741CPE4" device="">
 <attribute name="SPICEMODEL" value="OPAMP"/>
 <attribute name="SPICEPREFIX" value="X"/>
@@ -13777,9 +13777,9 @@ Source: &lt;a href="https://docs-emea.rs-online.com/webdocs/0021/0900766b8002111
 <part name="SUPPLY3" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="P-3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V-" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="V+" device=""/>
-<part name="RD" library="PFE" deviceset="T7YA103MT20" device=""/>
-<part name="CD1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1"/>
-<part name="CD2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1"/>
+<part name="RD" library="PFE" deviceset="T7YA103MT20" device="" value="10k"/>
+<part name="CD1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="10µ"/>
+<part name="CD2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="CPOL-EU" device="E2.5-6" package3d_urn="urn:adsk.eagle:package:23349/1" value="10µ"/>
 <part name="IC5" library="SamacSys_Parts" deviceset="UA741CPE4" device="">
 <attribute name="SPICEMODEL" value="OPAMP"/>
 <attribute name="SPICEPREFIX" value="X"/>
@@ -13791,7 +13791,7 @@ Source: &lt;a href="https://docs-emea.rs-online.com/webdocs/0021/0900766b8002111
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="22k"/>
 <part name="CONSIGNE" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
 <part name="RETOUR" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X1" device="" package3d_urn="urn:adsk.eagle:package:22485/2"/>
-<part name="RD1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2"/>
+<part name="RD1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="200"/>
 <part name="R6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="22k"/>
 <part name="SUPPLY4" library="supply2" library_urn="urn:adsk.eagle:library:372" deviceset="GND" device=""/>
 <part name="R7" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="10k"/>
@@ -13817,6 +13817,7 @@ Source: &lt;a href="https://docs-emea.rs-online.com/webdocs/0021/0900766b8002111
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="R1" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="100k"/>
+<part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-EU_" device="0204/7" package3d_urn="urn:adsk.eagle:package:23498/2" value="1k"/>
 </parts>
 <sheets>
 <sheet>
@@ -14036,6 +14037,10 @@ Source: &lt;a href="https://docs-emea.rs-online.com/webdocs/0021/0900766b8002111
 <instance part="R1" gate="G$1" x="132.08" y="76.2" smashed="yes">
 <attribute name="NAME" x="128.27" y="77.6986" size="1.778" layer="95"/>
 <attribute name="VALUE" x="128.27" y="72.898" size="1.778" layer="96"/>
+</instance>
+<instance part="R2" gate="G$1" x="76.2" y="63.5" smashed="yes">
+<attribute name="NAME" x="72.39" y="64.9986" size="1.778" layer="95"/>
+<attribute name="VALUE" x="72.39" y="60.198" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -14323,23 +14328,20 @@ Source: &lt;a href="https://docs-emea.rs-online.com/webdocs/0021/0900766b8002111
 </net>
 <net name="ERREUR" class="0">
 <segment>
-<pinref part="RI" gate="G$1" pin="A"/>
-<pinref part="RI" gate="G$1" pin="B"/>
-<wire x1="83.82" y1="60.96" x2="83.82" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
-<junction x="83.82" y="63.5"/>
 <pinref part="RP1" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="111.76" x2="68.58" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="111.76" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
 <label x="71.12" y="99.06" size="1.778" layer="95" rot="R90"/>
 <pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="68.58" y1="63.5" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="66.04" x2="33.02" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="48.26" x2="55.88" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="G$1" pin="OUT"/>
 <wire x1="48.26" y1="48.26" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="48.26" x2="68.58" y2="48.26" width="0.1524" layer="91"/>
 <junction x="55.88" y="48.26"/>
-<wire x1="68.58" y1="48.26" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="63.5" x2="68.58" y2="63.5" width="0.1524" layer="91"/>
 <junction x="68.58" y="63.5"/>
 </segment>
 </net>
@@ -14397,6 +14399,16 @@ Source: &lt;a href="https://docs-emea.rs-online.com/webdocs/0021/0900766b8002111
 <wire x1="187.96" y1="68.58" x2="187.96" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="71.12" x2="180.34" y2="71.12" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="RI" gate="G$1" pin="A"/>
+<pinref part="RI" gate="G$1" pin="B"/>
+<wire x1="83.82" y1="60.96" x2="83.82" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="81.28" y1="63.5" x2="83.82" y2="63.5" width="0.1524" layer="91"/>
+<junction x="83.82" y="63.5"/>
 </segment>
 </net>
 </nets>
